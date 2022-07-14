@@ -9,7 +9,6 @@ import tensorflow as tf
 from collections import defaultdict
 from io import StringIO
 from PIL import Image
-sys.path.append("..")
 from utils import label_map_util
 from utils import visualization_utils as vis_util
 MODEL_NAME = 'ssd_mobilenet_v1_coco_11_06_2017'
