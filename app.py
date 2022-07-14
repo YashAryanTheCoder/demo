@@ -5,7 +5,6 @@ from werkzeug import secure_filename
 import numpy as np
 import os
 import six.moves.urllib as urllib
-import sys
 import tensorflow as tf
 from collections import defaultdict
 from io import StringIO
